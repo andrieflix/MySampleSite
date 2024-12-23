@@ -8,9 +8,8 @@ import Answer3 from "./components/Answer_3.jsx"
 import Answer4 from "./components/Answer_4.jsx"
 import Answer5 from "./components/Answer_5.jsx"
 import Answer6 from "./components/Answer_6.jsx"
-import Answer7 from "./components/Answer_7.jsx"
-import Answer8 from "./components/Answer_8.jsx"
 import Answer9 from "./components/Answer_9.jsx"
+
 
 const navigation = [
   { name: 'Question 1', id: 'answer1' },
@@ -19,8 +18,6 @@ const navigation = [
   { name: 'Question 4', id: 'answer4' },
   { name: 'Question 5', id: 'answer5' },
   { name: 'Question 6', id: 'answer6' },
-  { name: 'Question 7', id: 'answer7' },
-  { name: 'Question 8', id: 'answer8' },
   { name: 'Question 9', id: 'answer9' },
  
 ]
@@ -140,8 +137,6 @@ function App() {
           <Answer4  />
           <Answer5  />
           <Answer6  />
-          <Answer7  />
-          <Answer8  />
           <Answer9  />
           </div>
 
